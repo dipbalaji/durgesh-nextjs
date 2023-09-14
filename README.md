@@ -22,3 +22,28 @@ E:\Nextjs\durgesh-nextjs>git add .<br/>
 E:\Nextjs\durgesh-nextjs>git commit -m "project related information"<br/>
 8)push all files into github<br/>
 E:\Nextjs\durgesh-nextjs>git push origin main<br/>
+
+ <h1>folder ke sath git ko kaise manage karte hain</h1>
+ steps:-
+ git init
+ 1) go to folder / project cd projectName
+ cd projectName
+ 2) git stutus file ka status dekhneke liye
+ 3) create new reposetory / jahape hame kod dalna hain
+ work-manager>git init
+ git remote add origin https://github.com/dipbalaji/Nextjs.git
+ 4)to verify remote
+  work-manager>git remote -v
+5) create main branch
+git branch -M main
+6) check Brach 
+git branch
+git push -u origin main
+
+7) add into githu
+git push
+
+if error is comming below type
+error: failed to push some refs to 'https://github.com/dipbalaji/Nextjs.git'
+
+ 
